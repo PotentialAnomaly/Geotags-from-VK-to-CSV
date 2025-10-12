@@ -39,7 +39,6 @@ cp config.example.py config.py
 
 4. Edit `config.py` and add your VK API credentials:
    - Get service token by registering an application (takes 5 minutes with a VK account): https://vk.com/apps?act=manage
-   - (IF THE PROJECT REVIEWER DOESN'T HAVE TIME TO GET A TOKEN, THEY CAN MESSAGE ME ON TELEGRAM @unumerratum)
 
 ## 📖 Usage
 
@@ -83,6 +82,9 @@ CSV file with the following columns:
 | Photo_ID | VK photo ID |
 | Lat | Latitude of the photo |
 | Long | Longitude of the photo |
+
+You can view each individual photo: enter it in the search https://vk.com/ownerid_photoid  
+Reverse translation of Unix time: https://www.unixtimestamp.com/en/  
 
 ## 🔧 Parameters
 
