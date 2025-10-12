@@ -27,14 +27,14 @@ Of course, where people post photos doesn't fully reflect where they take photos
 
 ### Installation
 
-1. Clone the repository:
+1. Clone the repository:  
 git clone https://github.com/PotentialAnomaly/Geotags-from-VK-to-CSV.git  
-cd Geotags-from-VK-to-CSV
+cd Geotags-from-VK-to-CSV  
 
-2. Install dependencies:
+2. Install dependencies:  
 pip install -r requirements.txt
 
-3. Create configuration file:
+3. Create configuration file:  
 cp config.example.py config.py
 
 4. Edit `config.py` and add your VK API credentials:
