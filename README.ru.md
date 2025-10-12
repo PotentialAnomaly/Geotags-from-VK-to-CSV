@@ -59,15 +59,15 @@ python main.py
 
 from vk_geotags import get_geotag_csv
 
-get_geotag_csv(
-q='',
-lat=60,
-long=30,
-radius=50000,
-start_time=(2021, 3, 8, 12, 0, 0),
-end_time=(2021, 3, 8, 16, 0, 0),
-sort=0,
-csv_filename='output.csv')
+get_geotag_csv(  
+q='',  
+lat=60,  
+long=30,  
+radius=50000,  
+start_time=(2021, 3, 8, 12, 0, 0),  
+end_time=(2021, 3, 8, 16, 0, 0),  
+sort=0,  
+csv_filename='output.csv')  
 
 ## 📊 Формат вывода
 
