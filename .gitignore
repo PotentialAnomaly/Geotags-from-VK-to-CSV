@@ -205,3 +205,13 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# =============================================================================
+# Project-specific: Geotags-from-VK-to-CSV
+# =============================================================================
+
+# Configuration with API tokens (NEVER commit this!)
+config.py
+
+# Output data files
+*.csv
