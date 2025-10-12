@@ -44,7 +44,7 @@ cp config.example.py config.py
 
 ### Method 1: Using the main script
 
-1. Edit parameters in `main.py`:
+1. Edit parameters in `main.py`:  
 q = '' # Search query (empty = all photos)  
 lat = 60 # Latitude  
 long = 30 # Longitude  
