@@ -83,7 +83,7 @@ CSV file with the following columns:
 | Lat | Latitude of the photo |
 | Long | Longitude of the photo |
 
-You can view each individual photo: enter it in the search https://vk.com/ownerid_photoid  
+You can view each individual photo: enter it in the search https://vk.com/photo-ownerid_photoid  
 Reverse translation of Unix time: https://www.unixtimestamp.com/en/  
 
 ## 🔧 Parameters
