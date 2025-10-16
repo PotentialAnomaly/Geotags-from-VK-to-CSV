@@ -22,7 +22,7 @@ def main():
     radius = 50000  # Search radius: must be 10, 100, 800, 6000, or 50000 meters
 
     # Example time period: March 8, 2021, 12:00 - 16:00
-    # The time in tuple format (year, month, day, hour, minute, second)
+    # The time in tuple format (year, month, day, hour, minute, second). Time zone: UTC±0:00
     start_time = (2021, 3, 8, 12, 0, 0) # Photos uploaded not earlier than this time
     end_time = (2021, 3, 8, 16, 0, 0)  # Photos uploaded no later than this time
     
