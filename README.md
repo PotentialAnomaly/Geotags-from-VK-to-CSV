@@ -49,9 +49,9 @@ q = '' # Search query (empty = all photos)
 lat = 60 # Latitude  
 long = 30 # Longitude  
 radius = 50000 # Radius in meters (10, 100, 800, 6000, or 50000)  
-start_time = (2021, 3, 8, 12, 0, 0) # Start time  
-end_time = (2021, 3, 8, 16, 0, 0) # End time  
-sort = 0 # Sort: 0 = by date, 1 = by likes  
+start_time = (2021, 3, 8, 12, 0, 0) # Start time, UTC±0:00
+end_time = (2021, 3, 8, 16, 0, 0) # End time, UTC±0:00
+sort = 0 # Sort: 0 = by date, 1 = by likes
 csv_filename = 'output.csv'  
 
 2. Run the script:
