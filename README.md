@@ -92,8 +92,8 @@ Reverse translation of Unix time: https://www.unixtimestamp.com/en/
 - **lat** (float): Latitude in decimal degrees (from -90 to 90).
 - **long** (float): Longitude in decimal degrees (from -180 to 180).
 - **radius** (int): Search radius in meters. Valid values: 10, 100, 800, 6000, or 50000.
-- **start_time** (tuple): Start of time period (year, month, day, hour, minute, second).
-- **end_time** (tuple): End of time period (same format).
+- **start_time** (tuple): Start of time period (year, month, day, hour, minute, second). Time zone - UTC±0:00.
+- **end_time** (tuple): End of time period (same format and time zone).
 - **sort** (int): Sort order (0 - by date, 1 - by likes).
 - **csv_filename** (str): Output filename with .csv extension.
 
