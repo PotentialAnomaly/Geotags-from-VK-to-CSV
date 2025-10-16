@@ -54,11 +54,11 @@ def get_geotag_csv(q, lat, long, radius, start_time, end_time, sort, csv_filenam
         radius (int): Search radius in meters. Must be one of the following 
             values: 10, 100, 800, 6000, or 50000.
         start_time (tuple): Start of time period in tuple format
-            (year, month, day, hour, minute, second).
+            (year, month, day, hour, minute, second). Time zone: UTC±0:00.
             Photos uploaded not earlier than this time will be returned.
             Example: (2020, 3, 12, 0, 0, 0).
         end_time (tuple): End of time period in tuple format
-            (year, month, day, hour, minute, second).
+            (year, month, day, hour, minute, second). Time zone: UTC±0:00.
             Photos uploaded no later than this time will be returned.
             Example: (2021, 7, 12, 23, 59, 59).
         sort (int): Sort order (0 - by upload date, 1 - by number of likes).
